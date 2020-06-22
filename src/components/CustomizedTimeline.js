@@ -39,7 +39,7 @@ export default function CustomizedTimeline() {
 		  <TimelineCard
 			  title={'SW 마에스트로'}
 			  content={'내용1'}
-			  cardImage={'http://bitly.kr/soma1'}>
+			  cardImage={'http://bitly.kr/jwo55'}>
 		  </TimelineCard>
         </TimelineContent>
       </TimelineItem>
@@ -58,7 +58,7 @@ export default function CustomizedTimeline() {
 		  <TimelineCard
 			  title={'SSAFY'}
 			  content={'내용2'}
-			  cardImage={'https://user-images.githubusercontent.com/37580034/85300324-5ed6d400-b4e1-11ea-9bb1-a86ee2a5b2e7.jpg'}>
+			  cardImage={'http://bitly.kr/jwo55'}>
 		  </TimelineCard>
         </TimelineContent>
       </TimelineItem>
@@ -77,7 +77,7 @@ export default function CustomizedTimeline() {
 		  <TimelineCard
 			  title={'네이버 부스트캠프'}
 			  content={'내용3'}
-			  cardImage={'https://platum.kr/wp-content/uploads/2016/12/15094929_418158311905755_4216989854352981261_n-700x315.jpg'}>
+			  cardImage={'http://bitly.kr/jwo55'}>
 		  </TimelineCard>
         </TimelineContent>
       </TimelineItem>
@@ -95,7 +95,7 @@ export default function CustomizedTimeline() {
 		  <TimelineCard
 			  title={'42Seoul'}
 			  content={'내용1'}
-			  cardImage={'http://bitly.kr/42seoul'}>
+			  cardImage={'http://bitly.kr/jwo55'}>
 		  </TimelineCard>
         </TimelineContent>
       </TimelineItem>
