@@ -1,4 +1,5 @@
 import React ,{useEffect, useState} from 'react';
+import '../styles/Jumbotron.css'
 
 export default function Jumbotron(props) {
 	const [title] = useState('');

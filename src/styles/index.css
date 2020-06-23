@@ -13,4 +13,5 @@ code {
     monospace;
 }
 
-@font-face { font-family: 'NEXON Lv2 Gothic Bold'; src: url('./fonts/NEXON\ Lv2\ Gothic\ Bold.ttf') format('truetype'); }
+@font-face { font-family: 'NEXON Lv2 Gothic Bold'; src: url('../fonts/NEXON\ Lv2\ Gothic\ Bold.ttf') format('truetype'); }
+

@@ -1,5 +1,6 @@
 import React from 'react';
-import '../HorizontalTimeline.css';
+import '../styles/HorizontalTimeline.css';
+
 
 export default function HorizontalTimeline() {
 	return (
@@ -8,42 +9,42 @@ export default function HorizontalTimeline() {
 				<ol>
 					<li>
 					<div>
-						<time>SW 마에스트로</time> At vero eos et accusamus et iusto odio dignissimFos ducimus qui blanditiis praesentium At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+						<time>SW 마에스트로</time>SW마에스트로 과정은 창의도전형 SW인재 육성으로 SW산업의 미래를 선도하는 정부지원 사업입니다.
 					</div>
 					</li>
 					<li>
 					<div>
-						<time>우아한 테크 코스</time> Proin quam velit, efficitur vel neque vitae, rhoncus commodo mi. Suspendisse finibus mauris et bibFendum molestie. Aenean ex augue, varius et pulvinar in, pretium non nisi.
+						<time>우아한테크코스</time>우아한테크코스는 프로그래밍을 배워 프로그래머로서의 삶을 살고 싶은 사람들을 대상으로 하는 프로그래밍 교육 과정입니다.
 					</div>
 					</li>
 					<li>
 					<div>
-						<time>SSAFY</time> Proin iaculis, nibh eget efficitur varius, libero tellus porta dolor, at pulvinar tortor ex eget ligula. Integer eu dapibus arcu, sit amet sollicitudin eros.
+						<time>SSAFY</time>고용노동부의 취업 지원 노하우와 삼성의 소프트웨어 교육 경험을 바탕으로, 취업에 성공하도록 돕는 프로그램입니다.
 					</div>
 					</li>
 					<li>
 					<div>
-						<time>42Seoul 2-1차</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+						<time>42Seoul 2-1차</time>최고의 소프트웨어 개발자로 성장할 수 있는 곳, 최고의 동료와 함께 성장할 수 있는 곳, 바로 42 SEOUL입니다.
 					</div>
 					</li>
 					<li>
 					<div>
-						<time>네이버 부스트캠프</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+						<time>네이버 부스트캠프</time>부스트캠프는 지속 가능한 개발자 양성을 목표로 하는 소프트웨어 개발 실무 교육 프로그램입니다.
 					</div>
 					</li>
 					<li>
 					<div>
-						<time>42Seoul 2-2차</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+						<time>42Seoul 2-2차</time>
 					</div>
 					</li>
 					<li>
 					<div>
-						<time>42Seoul 3-1차</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+						<time>42Seoul 3-1차</time>
 					</div>
 					</li>
 					<li>
 					<div>
-						<time>42Seoul 3-2차</time> Aenean condimentum odio a bibendum rhoncus. Ut mauris felis, volutpat eget porta faucibus, euismod quis ante.
+						<time>42Seoul 3-2차</time>
 					</div>
 					</li>
 					<li></li>

@@ -1,9 +1,15 @@
+@font-face { font-family: 'NEXON Lv1 Gothic OTF Light'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF Light.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'NEXON Lv2 Gothic Bold'; src: url('../fonts/NEXON\ Lv2\ Gothic\ Bold.ttf') format('truetype'); }
+
+
 *,
 *::before,
 *::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'NEXON Lv1 Gothic OTF Light';
+  font-weight: bolder;
 }
 
 button {
@@ -20,32 +26,9 @@ body {
 }
 
 
-/* .section SECTION
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-.section {
-  background: #F45B69;
-  padding: 50px 0;
-}
-
-.section .container {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.section h1 {
-  font-size: 2.5rem;
-}
-
-.section h2 {
-  font-size: 1.3rem;
-}
-
-
 /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 
 .timeline {
   white-space: nowrap;
@@ -55,8 +38,9 @@ body {
 .timeline ol {
   font-size: 0;
   width: 100vw;
-  padding: 250px 0;
+  padding: 200px 0;
   transition: all 1s;
+
 }
 
 .timeline ol li {
@@ -121,6 +105,7 @@ body {
   border-color: white transparent transparent transparent;
 }
 
+/* 라인에서 얼마나 떨어졌는지 */
 .timeline ol li:nth-child(even) div {
   top: calc(100% + 16px);
 }
@@ -132,10 +117,11 @@ body {
 }
 
 .timeline time {
+  font-family: 'NEXON Lv2 Gothic Bold';
   display: block;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: bold;
-  margin-bottom: 8px;
+  margin-bottom: 1px;
 }
 
 

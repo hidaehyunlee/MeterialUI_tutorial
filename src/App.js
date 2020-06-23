@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './App.css';
+import './styles/App.css';
 import CustomizedTimeline from './components/CustomizedTimeline'
 import Jumbotron from './components/Jumbotron'
 import HorizontalTimeline from './components/HorizontalTimeline'
