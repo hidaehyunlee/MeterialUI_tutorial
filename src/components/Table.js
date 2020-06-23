@@ -52,7 +52,7 @@ export default function CustomizedTables() {
       <Table className={classes.table} aria-label="customized table">
         <TableHead>
           <TableRow>
-            <StyledTableCell>Dessert (100g serving)</StyledTableCell>
+            <StyledTableCell>프로그램</StyledTableCell>
             <StyledTableCell align="right">Calories</StyledTableCell>
             <StyledTableCell align="right">Fat&nbsp;(g)</StyledTableCell>
             <StyledTableCell align="right">Carbs&nbsp;(g)</StyledTableCell>

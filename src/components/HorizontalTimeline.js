@@ -60,7 +60,6 @@ export default function HorizontalTimeline() {
 					</button>
 				</div>
 			</section>
-
 		</div>
 	);
 }

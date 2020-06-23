@@ -21,7 +21,7 @@ button {
 
 body {
   font: normal 16px/1.5 "Helvetica Neue", sans-serif;
-  background: #ACB6E5;
+  background: #456990;
   color: #fff;
 }
 
@@ -38,7 +38,7 @@ body {
 .timeline ol {
   font-size: 0;
   width: 100vw;
-  padding: 200px 0;
+  padding: 150px 0;
   transition: all 1s;
 
 }
@@ -82,6 +82,7 @@ body {
   white-space: normal;
   color: black;
   background: white;
+  border-radius: 5px 5px 5px 5px;
 }
 
 .timeline ol li div::before {
@@ -100,8 +101,8 @@ body {
 }
 
 .timeline ol li:nth-child(odd) div::before {
-  top: 100%;
-  border-width: 8px 8px 0 0;
+  top: 96%;
+  border-width: 10px 10px 0 0;
   border-color: white transparent transparent transparent;
 }
 
@@ -111,8 +112,8 @@ body {
 }
 
 .timeline ol li:nth-child(even) div::before {
-  top: -8px;
-  border-width: 8px 0 0 8px;
+  top: -5px;
+  border-width: 10px 0 0 10px;
   border-color: transparent transparent transparent white;
 }
 
@@ -194,7 +195,7 @@ body {
     top: 100%;
     transform: translateX(-50%);
     border: none;
-    border-left: 1px solid white;
+    border-left: 3px solid white;
     height: 25px;
   }
 

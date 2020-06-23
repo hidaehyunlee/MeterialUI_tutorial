@@ -1,19 +1,17 @@
 .jumbotron {
-	background: #74ebd5;
-    background: -webkit-linear-gradient(to right, #74ebd5, #ACB6E5);
-    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+	color: #456990;
+  background-image: url("#");
+  background-position: center;
+  background-size: cover;
 }
 
 h1 {
 	font-family: 'NEXON Lv2 Gothic Bold';
-	margin-left: 25px;
-	margin-right: calc(100% - 350px);
 }
 
 p {
 	font-family: 'NEXON Lv1 Gothic OTF Light';
-	margin-left: 25px;
-	margin-right: calc(100% - 600px);
+	color : black;
 }
 
 @font-face { font-family: 'NEXON Lv1 Gothic OTF Light'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF Light.woff') format('woff'); font-weight: normal; font-style: normal; }

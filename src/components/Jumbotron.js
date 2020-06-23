@@ -6,9 +6,11 @@ export default function Jumbotron(props) {
   	const [content] = useState('');
 
 	return (
-		<div className="jumbotron">
-			<h1>{props.title}</h1>
-			<p>{props.content}</p>
-		</div>
+			<div class="jumbotron jumbotron-fluid">
+  				<div className="container">
+    				<h1>{props.title}</h1>
+    				<p>{props.content}</p>
+  				</div>
+			</div>
 	);
   }
