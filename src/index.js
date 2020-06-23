@@ -15,6 +15,9 @@ const theme = createMuiTheme({
 		'"Helvetica Neue"',
 		'Arial',
 	  ].join(','),
+	  body2: {
+		fontFamily: 'NEXON Lv2 Gothic Bold',
+	  },
 	}
 });
 

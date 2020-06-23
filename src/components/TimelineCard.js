@@ -41,7 +41,7 @@ export default function TimelineCard(props) {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button type="button" onclick="location.href = '#'" size="small" color="primary">
+        <Button variant="contained" color="primary" href="#contained-buttons" size="small" color="primary">
           자세히 보기
         </Button>
       </CardActions>
