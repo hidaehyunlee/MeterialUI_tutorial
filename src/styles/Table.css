@@ -1,8 +1,11 @@
 
 .contentColumns {
+ 	overflow-x: hidden;
 	padding: 3rem;
 	display: flex;
 	background: #e5e5e9;
+	text-align: center;
+	justify-content: center;
   }
 
   .col {
@@ -13,17 +16,18 @@
 	margin-right: 1rem;
 	box-shadow: 0 0 5px rgba(black, 0.04);
 	border-radius: 5px;
+	align-items: center;
   }
 
   .colName{
 	border-top: 4px solid #ebecee;
-	min-height: 500px;
-	width: 100px;
-	padding: 1rem;
+	width: 90px;
+	padding: 0 0 0 1rem;
 	background: #ebecee;
 	box-shadow: 0 0 5px rgba(black, 0.04);
 	border-radius: 5px;
   }
+
   .col:nth-child(6) {
 	border-top: 4px solid #50aaee;
   }
@@ -43,16 +47,16 @@
 .colName .item {
 	background: #c4cde4;
 	box-shadow: 0 2px 4px rgba(black, 0.07);
-	min-height: 46px;
 	border-radius: 5px;
 	margin: 1rem 0 0.5rem 0;
-	height: 30px;
+	height: 50px;
+	padding-bottom: 0;
 }
 
 .itemTitle {
 	background: #c4cde4;
 	box-shadow: 0 2px 4px rgba(black, 0.07);
-	min-height: 40px;
+	height: 40px;
 	border-radius: 5px;
 	margin: 0 0 0.5rem 0;
 }
@@ -62,8 +66,11 @@
 	box-shadow: 0 2px 4px rgba(black, 0.07);
 	min-height: 50px;
 	border-radius: 5px;
-	margin: 0 0 0.5rem 0;
+	margin: 0 0 1rem 0;
 	height: 50px;
+	display: flex;
+  	justify-content: center;
+ 	flex-direction: column;
   }
 
 .itemNull {
@@ -72,4 +79,18 @@
 	min-height: 40px;
 	border-radius: 5px;
 	margin: 0 0 0.5rem 0;
+}
+
+h4 {
+	font-family: 'NEXON Lv2 Gothic Bold';
+	font-size: 14px;
+	color: #456990;
+	line-height: 40px;
+	margin: -6px auto;
+}
+
+.col .item p {
+	font-size: 10px;
+	overflow: auto;
+	margin: 13px 0 10px
 }

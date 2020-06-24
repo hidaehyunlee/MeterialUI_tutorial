@@ -19,7 +19,7 @@ export default function Table() {
 			<div className="col">
 				<div className="itemTitle"><h4>42Seoul</h4></div>
 				<div className="item"><p>이노베이션 아카데미</p></div>
-				<div className="item"><p>1차 온라인테스트 <br/>2차 라피씬(4주 집중교육과정)</p></div>
+				<div className="item"><p>온라인테스트 -> 4주 집중교육과정</p></div>
 				<div className="item"><p>해당년도 1월 1일 기준 성인 </p></div>
 				<div className="item"><p>기수당 250여명</p></div>
 				<div className="item"><p>최대 2년</p></div>
@@ -60,7 +60,7 @@ export default function Table() {
 				<div className="itemTitle"><h4>우아한테크코스</h4></div>
 				<div className="item"><p>우아한형제들</p></div>
 				<div className="item"><p>온라인코딩테스트<br/>3주 프리코스<br/>최종 코딩테스트</p></div>
-				<div className="item"><p>약 300라인의 프로그래밍 구현 가능/함수, 변수, 데이터타입, 조건문, 반복문 활용 가능/git과 같은 소스코드 관리 도구 사용 가능</p></div>
+				<div className="item"><p>약 300라인의 프로그래밍 구현 가능/함수, 변수, 데이터타입, 조건문, 반복문 활용 가능/git 사용 가능</p></div>
 				<div className="item"><p>약 50명</p></div>
 				<div className="item"><p>약 10개월</p></div>
 				<div className="item"><p>월 100만원</p></div>
