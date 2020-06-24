@@ -21,7 +21,9 @@ button {
 
 body {
   font: normal 16px/1.5 "Helvetica Neue", sans-serif;
-  background: #456990;
+  background: #74ebd5;
+  background: -webkit-linear-gradient(to right, #74ebd5, #ACB6E5);
+  background: linear-gradient(to left, #74ebd5, #ACB6E5);
   color: #fff;
 }
 
