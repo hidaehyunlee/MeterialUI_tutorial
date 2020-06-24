@@ -4,6 +4,7 @@ import CustomizedTimeline from './components/CustomizedTimeline'
 import Jumbotron from './components/Jumbotron'
 import HorizontalTimeline from './components/HorizontalTimeline'
 import Table from './components/Table'
+import Footer from './components/Footer'
 
 class App extends Component {
 	render() {
@@ -13,6 +14,7 @@ class App extends Component {
 			{/* <CustomizedTimeline></CustomizedTimeline> */}
 			<HorizontalTimeline></HorizontalTimeline>
 			<Table></Table>
+			<Footer></Footer>
 		</div>
 	  );
 	}
