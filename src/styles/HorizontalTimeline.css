@@ -40,7 +40,7 @@ body {
 .timeline ol {
   font-size: 0;
   width: 100vw;
-  padding: 150px 0;
+  padding: 140px 0;
   transition: all 1s;
 
 }
@@ -133,7 +133,7 @@ body {
 .timeline .arrows {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .timeline .arrows .arrow__prev {

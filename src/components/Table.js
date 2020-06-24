@@ -5,6 +5,15 @@ import Typography from '@material-ui/core/Typography';
 export default function Table() {
 
 	return (
+		<div>
+		<section class="tableBox">
+			<div class="row intro">
+				<div class="medium-12 columns">
+					<h1>한눈에 보는 부트캠프</h1>
+					<p>지금 나, '예발자'에게 필요한 부트캠프 코스는?</p>
+				</div>
+			</div>
+		</section>
 		<div className="contentColumns">
 			<div className="colName">
 				<div className="itemNull"></div>
@@ -67,5 +76,6 @@ export default function Table() {
 				<div className="item"><p>잠실역 한국루터회관</p></div>
 			</div>
     	</div>
+		</div>
 	);
   }

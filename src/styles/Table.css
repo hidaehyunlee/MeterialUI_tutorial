@@ -1,4 +1,37 @@
 
+.tableBox {
+	background-color: #e5e5e9;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+	height: 18vh;
+}
+
+.tableBox .intro {
+	padding: 3rem;
+	position: relative;
+	top: 85%;
+	transform: translateY(-50%);
+}
+
+.tableBox h1 {
+	color: #456990;
+	font-size: 3rem;
+	line-height: 1em;
+	font-weight: 400;
+	text-align: center;
+	margin-top: -10px;
+}
+
+.tableBox p {
+	color: #456990;
+	font-size: 1.5rem;
+	line-height: 1.75em;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
 .contentColumns {
  	overflow-x: hidden;
 	padding: 3rem;
