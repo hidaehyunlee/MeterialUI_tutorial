@@ -1,8 +1,10 @@
 import React from 'react';
 import '../styles/HorizontalTimeline.css';
 
+import TimelineOppositeContent from '@material-ui/lab/TimelineOppositeContent';
 
 export default function HorizontalTimeline() {
+
 	return (
 		<div>
 			<section className="timeline">

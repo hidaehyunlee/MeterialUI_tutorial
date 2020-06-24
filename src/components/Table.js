@@ -1,78 +1,71 @@
 import React from 'react';
-import { withStyles, makeStyles } from '@material-ui/core/styles';
-import Table from '@material-ui/core/Table';
-import TableBody from '@material-ui/core/TableBody';
-import TableCell from '@material-ui/core/TableCell';
-import TableContainer from '@material-ui/core/TableContainer';
-import TableHead from '@material-ui/core/TableHead';
-import TableRow from '@material-ui/core/TableRow';
-import Paper from '@material-ui/core/Paper';
+import '../styles/Table.css'
+import Typography from '@material-ui/core/Typography';
 
-const StyledTableCell = withStyles((theme) => ({
-  head: {
-    backgroundColor: theme.palette.common.black,
-    color: theme.palette.common.white,
-  },
-  body: {
-    fontSize: 14,
-  },
-}))(TableCell);
+export default function Table() {
 
-const StyledTableRow = withStyles((theme) => ({
-  root: {
-    '&:nth-of-type(odd)': {
-      backgroundColor: theme.palette.action.hover,
-    },
-  },
-}))(TableRow);
-
-function createData(name, calories, fat, carbs, protein) {
-  return { name, calories, fat, carbs, protein };
-}
-
-const rows = [
-  createData('Frozen yoghurt', 159, 6.0, 24, 4.0),
-  createData('Ice cream sandwich', 237, 9.0, 37, 4.3),
-  createData('Eclair', 262, 16.0, 24, 6.0),
-  createData('Cupcake', 305, 3.7, 67, 4.3),
-  createData('Gingerbread', 356, 16.0, 49, 3.9),
-];
-
-const useStyles = makeStyles({
-  table: {
-    minWidth: 700,
-  },
-});
-
-export default function CustomizedTables() {
-  const classes = useStyles();
-
-  return (
-    <TableContainer component={Paper}>
-      <Table className={classes.table} aria-label="customized table">
-        <TableHead>
-          <TableRow>
-            <StyledTableCell>프로그램</StyledTableCell>
-            <StyledTableCell align="right">Calories</StyledTableCell>
-            <StyledTableCell align="right">Fat&nbsp;(g)</StyledTableCell>
-            <StyledTableCell align="right">Carbs&nbsp;(g)</StyledTableCell>
-            <StyledTableCell align="right">Protein&nbsp;(g)</StyledTableCell>
-          </TableRow>
-        </TableHead>
-        <TableBody>
-          {rows.map((row) => (
-            <StyledTableRow key={row.name}>
-              <StyledTableCell component="th" scope="row">
-                {row.name}
-              </StyledTableCell>
-              <StyledTableCell align="right">{row.calories}</StyledTableCell>
-              <StyledTableCell align="right">{row.fat}</StyledTableCell>
-              <StyledTableCell align="right">{row.carbs}</StyledTableCell>
-              <StyledTableCell align="right">{row.protein}</StyledTableCell>
-            </StyledTableRow>
-          ))}
-        </TableBody>
-      </Table>
-    </TableContainer>
-  );
-}
+	return (
+		<div className="contentColumns">
+			<div className="colName">
+				<div className="itemNull"></div>
+				<div className="item"><h4>주관</h4></div>
+				<div className="item"><h4>선발과정</h4></div>
+				<div className="item"><h4>지원자격</h4></div>
+				<div className="item"><h4>모집인원</h4></div>
+				<div className="item"><h4>교육기간</h4></div>
+				<div className="item"><h4>혜택</h4></div>
+				<div className="item"><h4>교육지역</h4></div>
+			</div>
+			<div className="col">
+				<div className="itemTitle"><h4>42Seoul</h4></div>
+				<div className="item"><p>이노베이션 아카데미</p></div>
+				<div className="item"><p>1차 온라인테스트 <br/>2차 라피씬(4주 집중교육과정)</p></div>
+				<div className="item"><p>해당년도 1월 1일 기준 성인 </p></div>
+				<div className="item"><p>기수당 250여명</p></div>
+				<div className="item"><p>최대 2년</p></div>
+				<div className="item"><p>월 100만원(세전)</p></div>
+				<div className="item"><p>강남구 개포디지털혁신파크</p></div>
+			</div>
+			<div className="col">
+				<div className="itemTitle"><h4>SSAFY</h4></div>
+				<div className="item"><p>삼성</p></div>
+				<div className="item"><p>1차 온라인 CBT <br/>2차 현장 CBT, 면접</p></div>
+				<div className="item"><p>만29세 이하의 대졸, 미취업자, 군필</p></div>
+				<div className="item"><p>1000여명</p></div>
+				<div className="item"><p>1년</p></div>
+				<div className="item"><p>월 100만원(세후)</p></div>
+				<div className="item"><p> - </p></div>
+			</div>
+			<div className="col">
+				<div className="itemTitle"><h4>SW마에스트로</h4></div>
+				<div className="item"><p>한국정보산업연합회</p></div>
+				<div className="item"><p>서류심사<br/>온라인코딩테스트<br/>인적성검사<br/>심층면접</p></div>
+				<div className="item"><p>SW개발 능력을 갖춘 미취업자</p></div>
+				<div className="item"><p>150명</p></div>
+				<div className="item"><p>6개월</p></div>
+				<div className="item"><p>월 100만원<br/>IT기기 구입비 최대 150만원</p></div>
+				<div className="item"><p>서울 강남구</p></div>
+			</div>
+			<div className="col">
+				<div className="itemTitle"><h4>네이버 부스트캠프</h4></div>
+				<div className="item"><p>네이버</p></div>
+				<div className="item"><p>1차 온라인코딩테스트<br/>2차 온라인코딩테스트<br/>4주 부스트캠프 챌린지</p></div>
+				<div className="item"><p>개발 경력 2년 미만</p></div>
+				<div className="item"><p>미정-챌린지 과정 수료자</p></div>
+				<div className="item"><p>4개월</p></div>
+				<div className="item"><p> - </p></div>
+				<div className="item"><p>역삼역/뚝섬역 베이스캠프</p></div>
+			</div>
+			<div className="col">
+				<div className="itemTitle"><h4>우아한테크코스</h4></div>
+				<div className="item"><p>우아한형제들</p></div>
+				<div className="item"><p>온라인코딩테스트<br/>3주 프리코스<br/>최종 코딩테스트</p></div>
+				<div className="item"><p>약 300라인의 프로그래밍 구현 가능/함수, 변수, 데이터타입, 조건문, 반복문 활용 가능/git과 같은 소스코드 관리 도구 사용 가능</p></div>
+				<div className="item"><p>약 50명</p></div>
+				<div className="item"><p>약 10개월</p></div>
+				<div className="item"><p>월 100만원</p></div>
+				<div className="item"><p>잠실역 한국루터회관</p></div>
+			</div>
+    	</div>
+	);
+  }
