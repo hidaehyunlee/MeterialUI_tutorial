@@ -239,7 +239,7 @@ ReactDOM.render(
 
 ### 2. Codepen
 
-머티리얼UI에서 제공하는 컴포넌트들이 마음에 들지 않아서, 주로 구글링을 해서 템플릿을 찾았다.  `awsome 30 react table template` 처럼 어-썸을 붙이는게 구글링 꿀팁.
+머티리얼UI에서 제공하는 컴포넌트들이 마음에 들지 않아서, 주로 구글링을 해서 템플릿을 찾았다.  `awesome 30 react table template` 처럼 어-썸을 붙이는게 구글링 꿀팁.
 
 아무튼 주로 [codepen](https://codepen.io/) 이란 사이트로 많이 링크된다. 개인이 작성한 HTML, CSS, JavaScript 템플릿들을 공유하는 오픈소스 커뮤니티인 것 같다. 아래 코드들을 많이 참고해 사용했다.
 
